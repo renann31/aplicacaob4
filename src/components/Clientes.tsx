@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { motion } from "motion/react"
 
@@ -97,7 +98,7 @@ const Clientes = () => {
                     <h1 className="text-[#E46824] md:text-[24px] md: md:mt-30">Nossos Clientes</h1>
                 </div>
 
-                <div className="md:max-h-26 md:flex md:overflow-x-auto md:gap-8.5 md:ml-34.25">
+                <div className="md:max-h-26 md:flex md:overflow-x-auto md:gap-8.5 md:ml-25">
                     {clientes.map((c, i) => {
                         return (
                             <Image

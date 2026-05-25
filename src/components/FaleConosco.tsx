@@ -1,8 +1,7 @@
 "use client";
-
 import Swal from "sweetalert2";
 import { useState, FormEvent, ChangeEvent } from "react";
-import { motion } from "framer-motion";
+import MotionDiv from "@/src/components/MotionDiv";
 
 const FaleConosco = () => {
   const [nome, setNome] = useState<string>("");
@@ -67,33 +66,18 @@ const FaleConosco = () => {
     }
   };
 
-  const animation = {
-    initial: { opacity: 0, x: -80 },
-    whileInView: { opacity: 1, x: 0 },
-    transition: {
-      duration: 1.6,
-      ease: "easeOut" as const,
-    },
-    viewport: { once: true },
-  };
-
   return (
-    <motion.div
-      initial={animation.initial}
-      whileInView={animation.whileInView}
-      transition={animation.transition}
-      viewport={animation.viewport}
+    <MotionDiv
       id="contato"
-      className="w-full mx-auto h-auto relative flex flex-col md:h-[576px] md:mt-20"
+      className="md:w-220 mx-auto h-auto relative flex flex-col md:h-[576px] md:mt-20"
     >
-      <div className="w-[260px] md:w-1/2 flex flex-col mb-4 md:mb-10">
-        <h1 className="text-white text-[36px] md:text-[64px] font-serif font-normal">
+      <div className="w-[260px] md:w-1/2 flex flex-col mb-4 md:mb-10 ">
+        <h1 className="text-[#BD4217] text-[36px] md:text-[64px] font-serif font-bold">
           Fale Conosco
         </h1>
 
-        <p className="font-sans text-[10px] md:text-[12px] text-white font-light">
-          Quer transformar seu evento em uma experiência inesquecível? Mande uma
-          mensagem para a gente!
+        <p className="text-[#BD4217] font-sans text-[10px] md:text-[14px] font-light">
+          Quer transformar seus sonhos em realidade? Deixe-nos te ajudar!
         </p>
       </div>
 
@@ -109,7 +93,7 @@ const FaleConosco = () => {
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
             setNome(e.target.value)
           }
-          className="border border-white/50 md:border-white 
+          className="border border-[#BD4217]/50 md:border-[#BD4217]
           rounded-md md:rounded-[19px] 
           px-3 md:px-6 w-full h-3.5 md:h-10 
           text-white text-[12px] md:text-[14px] 
@@ -130,7 +114,7 @@ const FaleConosco = () => {
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setEmail(e.target.value)
             }
-            className="border border-white/50 md:border-white 
+            className="border border-[#BD4217]/50 md:border-[#BD4217]
             rounded-md md:rounded-[19px] 
             px-3 md:px-6 w-full h-3.5 md:h-10 
             text-white text-[12px] md:text-[14px] 
@@ -150,7 +134,7 @@ const FaleConosco = () => {
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setTelefone(e.target.value)
             }
-            className="border border-white/50 md:border-white 
+            className="border border-[#BD4217]/50 md:border-[#BD4217]
             rounded-md md:rounded-[19px] 
             px-3 md:px-6 w-full h-3.5 md:h-10 
             text-white text-[12px] md:text-[14px] 
@@ -170,7 +154,7 @@ const FaleConosco = () => {
           onChange={(e: ChangeEvent<HTMLTextAreaElement>) =>
             setMensagem(e.target.value)
           }
-          className="border border-white/50 md:border-white 
+          className="border border-[#BD4217]/50 md:border-[#BD4217]
           rounded-md md:rounded-[19px] 
           p-2 md:p-4 w-full h-[100px] md:h-[218px] 
           text-white mt-2 text-[12px] md:text-[14px] 
@@ -193,8 +177,8 @@ const FaleConosco = () => {
 
           <button
             type="submit"
-            className="bg-white text-black font-bold rounded-2xl md:rounded-[19px] 
-            px-12 py-1 mt-4 md:w-[22%] 
+            className="bg-[#E46824] text-[#320A27] font-bold rounded-2xl md:rounded-xl
+            px-12 py-1 mt-4 md:w-40 md:h-10
             opacity-80 hover:opacity-100 
             hover:scale-105 transition-all duration-200 
             font-sans text-[12px]"
@@ -203,7 +187,7 @@ const FaleConosco = () => {
           </button>
         </div>
       </form>
-    </motion.div>
+    </MotionDiv>
   );
 };
 

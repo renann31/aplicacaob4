@@ -1,24 +1,12 @@
 import Link from "next/link";
-import { motion } from "motion/react"
 import Image from "next/image";
+import MotionDiv from "@/src/components/MotionDiv";
 
 const ServicosHome = () => {
 
-    const animation = {
-        initial: { opacity: 0, y: 80 },
-        whileInView: { opacity: 1, y: 0 },
-        transition: { duration: 0.8, ease: "easeOut" as const },
-        viewport: { once: false, amount: 0.2 }
-    };
-
     return (
         <>
-            <motion.div
-                initial={animation.initial}
-                whileInView={animation.whileInView}
-                transition={animation.transition}
-                viewport={animation.viewport}
-                className="flex flex-col-reverse mx-auto items-center mb-20 w-72 md:w-220 md:flex-row md:mt-40 md:max-h-200 md:gap-10">
+            <MotionDiv className="flex flex-col-reverse mx-auto items-center mb-20 w-72 md:w-220 md:flex-row md:mt-40 md:max-h-200 md:gap-10">
                 {/* TEXTO */}
                 <div className="flex flex-col gap-3.25 relative md:gap-6 md:max-w-110 md:py-13.5">
 
@@ -46,15 +34,10 @@ const ServicosHome = () => {
                     className="object-cover md:object-contain rounded-lg"
                 />
 
-            </motion.div>
+            </MotionDiv>
 
     {/* card 2 */}
-            <motion.div
-                initial={animation.initial}
-                whileInView={animation.whileInView}
-                transition={animation.transition}
-                viewport={animation.viewport}
-                className="flex flex-col-reverse mx-auto items-center mb-20 w-72 md:w-220 md:flex-row md:mt-20 md:max-h-200 md:gap-10">
+            <MotionDiv className="flex flex-col-reverse mx-auto items-center mb-20 w-72 md:w-220 md:flex-row md:mt-20 md:max-h-200 md:gap-10">
 
                 {/* IMAGEM */}
                 <Image
@@ -83,7 +66,7 @@ const ServicosHome = () => {
                     </button>
                 </div>
 
-            </motion.div>
+            </MotionDiv>
         </>
     );
 }

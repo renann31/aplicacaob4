@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { motion } from "motion/react"
+import MotionDiv from "@/src/components/MotionDiv";
 
 const Header = () => {
 
@@ -10,13 +11,16 @@ const Header = () => {
         viewport: { once: false, amount: 0.2 }
     };
 
+    const motionProps = {
+        initial: animation.initial,
+        whileInView: animation.whileInView,
+        transition: animation.transition,
+        viewport: animation.viewport,
+    };
+
     return (
         <>
-            <motion.div
-                initial={animation.initial}
-                whileInView={animation.whileInView}
-                transition={animation.transition}
-                viewport={animation.viewport}>
+            <MotionDiv {...motionProps}>
                 <Image
                     src="/assets/heroHome.png"
                     alt="a experiência começa aqui"
@@ -24,12 +28,8 @@ const Header = () => {
                     height={198}
                     className="object-contain md:w-full"
                 />
-            </motion.div>
-            <motion.div
-                initial={animation.initial}
-                whileInView={animation.whileInView}
-                transition={animation.transition}
-                viewport={animation.viewport}>
+            </MotionDiv>
+            <MotionDiv {...motionProps}>
                 <div className="flex md:w-220 md:mt-7.75 w-72.5 mx-auto md:px-0 md:gap-27.5 md:max-h-60">
                     <Image
                         src="/assets/logoHome.svg"
@@ -50,7 +50,7 @@ const Header = () => {
 
 
                 </div >
-            </motion.div>
+            </MotionDiv>
         </>
     );
 }
