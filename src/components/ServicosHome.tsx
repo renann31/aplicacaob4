@@ -30,7 +30,7 @@ const ServicosHome = () => {
 
                 {/* IMAGEM */}
                 <Image
-                    src="/assets/grandHyatt.png"
+                    src="/assets/grandHyatt.webp"
                     alt="Imagem do serviço"
                     width={500}
                     height={237}
@@ -43,7 +43,7 @@ const ServicosHome = () => {
             <MotionDiv className="flex flex-col mx-auto items-center mb-20 w-73 md:w-220 2xl:w-280 md:flex-row md:mt-20 md:max-h-130 md:gap-10">
                 {/* IMAGEM */}
                 <Image
-                    src="/assets/copacabanaPalace.png"
+                    src="/assets/copacabanaPalace.webp"
                     alt="Imagem do serviço"
                     width={500}
                     height={237}

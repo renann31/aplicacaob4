@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <MotionDiv>
                 <Image
-                    src="/assets/heroHome.png"
+                    src="/assets/heroHome.webp"
                     alt="a experiência começa aqui"
                     width={400}
                     height={198}

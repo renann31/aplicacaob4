@@ -6,19 +6,19 @@ import MotionDiv from "./MotionDiv";
 export const CarrosselGH = () => {
     const gh = [
         {
-            "imagem": "/assets/GH-1.png"
+            "imagem": "/assets/GH-1.webp"
         },
         {
-            "imagem": "/assets/GH-2.png"
+            "imagem": "/assets/GH-2.webp"
         },
         {
-            "imagem": "/assets/GH-3.png"
+            "imagem": "/assets/GH-3.webp"
         },
         {
-            "imagem": "/assets/GH-4.png"
+            "imagem": "/assets/GH-4.webp"
         },
         {
-            "imagem": "/assets/GH-5.png"
+            "imagem": "/assets/GH-5.webp"
         },
     ]
     
@@ -44,19 +44,19 @@ export const CarrosselGH = () => {
 export const CarrosselCP = () => {
     const cp = [
         {
-            "imagem": "/assets/CP-1.png"
+            "imagem": "/assets/CP-1.webp"
         },
         {
-            "imagem": "/assets/CP-2.png"
+            "imagem": "/assets/CP-2.webp"
         },
         {
-            "imagem": "/assets/CP-3.png"
+            "imagem": "/assets/CP-3.webp"
         },
         {
-            "imagem": "/assets/CP-4.png"
+            "imagem": "/assets/CP-4.webp"
         },
         {
-            "imagem": "/assets/CP-5.png"
+            "imagem": "/assets/CP-5.webp"
         },
     ]
     

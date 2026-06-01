@@ -6,19 +6,19 @@ import Link from "next/link";
 const Clientes = () => {
     const contentCards = [
         {
-            "imagem": "/assets/cardHome1.png",
+            "imagem": "/assets/cardHome1.webp",
             "titulo": "Festival Timbre",
             "rota":  "festival-timbre",
             "p": "Com um público de aproximadamente 10.000 pessoas, em 2025 será a 5ª edição que Daniella assume a cenografia e as experiências de marketing do maior festival de música do Triângulo Mineiro, contribuindo para sua identidade visual e sensorial."
         },
         {
-            "imagem": "/assets/cardHome2.png",
+            "imagem": "/assets/cardHome2.webp",
             "titulo": "Camaru 2023",
             "rota":  "camaru-2023",
             "p": "Assinou a cenografia do stand do Grupo Paranaíba no Camaru 2023, criando um espaço temático inspirado no reality A Fazenda 15."
         },
         {
-            "imagem": "/assets/cardHome3.png",
+            "imagem": "/assets/cardHome3.webp",
             "titulo": "Camaru 2024",
             "rota":  "camaru-2024",
             "p": "Liderou 4 ativações ao longo do evento, incluindo a maior ação de marca da edição: a Roda-Gigante da Algar, reconhecida como a mais memorável e impactante experiência do festival."
