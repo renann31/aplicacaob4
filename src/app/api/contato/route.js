@@ -1,9 +1,14 @@
 import nodemailer from "nodemailer";
 
 export async function POST(req) {
+  console.log("EMAIL_USER:", process.env.EMAIL_USER);
+  console.log(
+    "EMAIL_PASS:",
+    process.env.EMAIL_PASS ? "OK" : "MISSING"
+  );
+
   try {
     const { nome, email, telefone, mensagem } = await req.json();
-
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
@@ -12,9 +17,12 @@ export async function POST(req) {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
+      tls: {
+    rejectUnauthorized: false,
+  },
     });
 
-    // Email para a magic
+    // Email para a b4
     await transporter.sendMail({
       from: `"${nome}" <${process.env.EMAIL_USER}>`,
       replyTo: email,

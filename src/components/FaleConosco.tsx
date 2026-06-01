@@ -69,9 +69,9 @@ const FaleConosco = () => {
   return (
     <MotionDiv
       id="contato"
-      className="md:w-220 mx-auto h-auto relative flex flex-col md:h-[576px] md:mt-20"
+      className="w-76 mt-10 md:w-220 mx-auto h-auto relative flex flex-col md:h-144 md:mt-20 2xl:w-280"
     >
-      <div className="w-[260px] md:w-1/2 flex flex-col mb-4 md:mb-10 ">
+      <div className="w-65 md:w-1/2 flex flex-col mb-4 md:mb-10 ">
         <h1 className="text-[#BD4217] text-[36px] md:text-[64px] font-serif font-bold">
           Fale Conosco
         </h1>
@@ -93,16 +93,13 @@ const FaleConosco = () => {
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
             setNome(e.target.value)
           }
-          className="border border-[#BD4217]/50 md:border-[#BD4217]
-          rounded-md md:rounded-[19px] 
-          px-3 md:px-6 w-full h-3.5 md:h-10 
-          text-white text-[12px] md:text-[14px] 
-          bg-transparent
-          placeholder:text-white/50
-          focus:outline-none 
-          focus:border-[#F5C069] 
-          focus:ring-2 focus:ring-[#F5C069]/40
-          transition-all duration-200"
+          className="border border-[#BD4217]/50 md:border-[#BD4217] rounded-[5px] md:rounded-[19px] 
+            px-3 md:px-6 w-full h-3.5 md:h-10 
+            text-white text-[12px] md:text-[14px] 
+            bg-transparent
+            placeholder:text-white/50
+            focus:outline-none focus:ring-2 focus:ring-[#F5C069]/40
+            transition-all duration-200"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
@@ -114,15 +111,12 @@ const FaleConosco = () => {
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setEmail(e.target.value)
             }
-            className="border border-[#BD4217]/50 md:border-[#BD4217]
-            rounded-md md:rounded-[19px] 
+            className="border border-[#BD4217]/50 md:border-[#BD4217] rounded-[5px] md:rounded-[19px] 
             px-3 md:px-6 w-full h-3.5 md:h-10 
             text-white text-[12px] md:text-[14px] 
             bg-transparent
             placeholder:text-white/50
-            focus:outline-none 
-            focus:border-[#F5C069] 
-            focus:ring-2 focus:ring-[#F5C069]/40
+            focus:outline-none focus:ring-2 focus:ring-[#F5C069]/40
             transition-all duration-200"
           />
 
@@ -134,15 +128,12 @@ const FaleConosco = () => {
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setTelefone(e.target.value)
             }
-            className="border border-[#BD4217]/50 md:border-[#BD4217]
-            rounded-md md:rounded-[19px] 
+            className="border border-[#BD4217]/50 md:border-[#BD4217] rounded-[5px] md:rounded-[19px] 
             px-3 md:px-6 w-full h-3.5 md:h-10 
             text-white text-[12px] md:text-[14px] 
             bg-transparent
             placeholder:text-white/50
-            focus:outline-none 
-            focus:border-[#F5C069] 
-            focus:ring-2 focus:ring-[#F5C069]/40
+            focus:outline-none focus:ring-2 focus:ring-[#F5C069]/40
             transition-all duration-200"
           />
         </div>
@@ -154,15 +145,12 @@ const FaleConosco = () => {
           onChange={(e: ChangeEvent<HTMLTextAreaElement>) =>
             setMensagem(e.target.value)
           }
-          className="border border-[#BD4217]/50 md:border-[#BD4217]
-          rounded-md md:rounded-[19px] 
-          p-2 md:p-4 w-full h-[100px] md:h-[218px] 
+          className="border border-[#BD4217]/50 md:border-[#BD4217] rounded-[5px] md:rounded-[19px] 
+          p-2 md:p-4 w-full h-25 md:h-54.5 
           text-white mt-2 text-[12px] md:text-[14px] 
           bg-transparent
           placeholder:text-white/50
-          focus:outline-none 
-          focus:border-[#F5C069] 
-          focus:ring-2 focus:ring-[#F5C069]/40
+          focus:outline-none focus:ring-2 focus:ring-[#F5C069]/40
           transition-all duration-200"
         />
 
@@ -177,11 +165,12 @@ const FaleConosco = () => {
 
           <button
             type="submit"
-            className="bg-[#E46824] text-[#320A27] font-bold rounded-2xl md:rounded-xl
-            px-12 py-1 mt-4 md:w-40 md:h-10
-            opacity-80 hover:opacity-100 
-            hover:scale-105 transition-all duration-200 
-            font-sans text-[12px]"
+            className={`bg-[#E46824] text-[#320A27] font-bold rounded-2xl md:rounded-xl
+              px-12 py-1 mt-4 md:w-40 md:h-10 md:mt-0
+              opacity-80 hover:opacity-100
+              hover:scale-105 transition-all duration-200
+              font-sans text-[12px]
+            ${enviado  ? "md:px-3"  : ""}`}
           >
             {enviado ? "ENVIAR OUTRA MENSAGEM" : "ENVIAR"}
           </button>

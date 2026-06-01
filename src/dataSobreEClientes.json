@@ -1,0 +1,158 @@
+{
+    "": {
+        "clientes": [
+            {
+                "cliente": "/assets/c1.svg",
+                "estilo": "md:w-35"
+            },
+            {
+                "cliente": "/assets/c2.svg",
+                "estilo": "md:w-35"
+            },
+            {
+                "cliente": "/assets/c3.svg",
+                "estilo": "md:w-40"
+            },
+            {
+                "cliente": "/assets/c4.svg",
+                "estilo": "md:w-23"
+            },
+            {
+                "cliente": "/assets/c5.svg",
+                "estilo": "md:w-22"
+            },
+            {
+                "cliente": "/assets/c6.svg",
+                "estilo": "md:w-40"
+            },
+            {
+                "cliente": "/assets/c7.svg"
+            },
+            {
+                "cliente": "/assets/c8.svg",
+                "estilo": "md:w-45"
+            },
+            {
+                "cliente": "/assets/c9.svg",
+                "estilo": "md:w-25"
+            },
+            {
+                "cliente": "/assets/c10.svg",
+                "estilo": "md:w-60"
+            },
+            {
+                "cliente": "/assets/c11.svg",
+                "estilo": "md:w-30"
+            },
+            {
+                "cliente": "/assets/c12.svg",
+                "estilo": ""
+            },
+            {
+                "cliente": "/assets/c13.svg",
+                "estilo": "md:w-45"
+            },
+            {
+                "cliente": "/assets/c14.svg",
+                "estilo": "md:w-25"
+            }
+        ],
+        "clientesMobile": [
+            {
+                "cliente": "/assets/c1.svg",
+                "estilo": "h-"
+            },
+            {
+                "cliente": "/assets/c2.svg",
+                "estilo": ""
+            },
+            {
+                "cliente": "/assets/c3.svg",
+                "estilo": ""
+            },
+            {
+                "cliente": "/assets/c4-m.svg",
+                "estilo": "h-10"
+            },
+            {
+                "cliente": "/assets/c5-m.svg",
+                "estilo": "w-25 h-10"
+            },
+            {
+                "cliente": "/assets/c6.svg",
+                "estilo": ""
+            },
+            {
+                "cliente": "/assets/c7-m.svg",
+                "estilo": "h-12"
+            },
+            {
+                "cliente": "/assets/c8-m.svg",
+                "estilo": "h-10 w-25"
+            },
+            {
+                "cliente": "/assets/c9-m.svg",
+                "estilo": "h-12"
+            },
+            {
+                "cliente": "/assets/c10-m.svg",
+                "estilo": "h-12 w-35"
+            },
+            {
+                "cliente": "/assets/c11-m.svg",
+                "estilo": "h-12 w-20"
+            },
+            {
+                "cliente": "/assets/c12-m.svg",
+                "estilo": "h-10"
+            },
+            {
+                "cliente": "/assets/c13-m.svg",
+                "estilo": "h-10"
+            },
+            {
+                "cliente": "/assets/c14-m.svg",
+                "estilo": "h-9 mt-2 mr-2"
+            }
+        ]
+    },
+    
+    "sobre": {
+        "textos": [
+            {
+                "id": "1",
+                "titulo": "Quem Somos?",
+                "texto": [
+                    "A B4 Creative é uma empresa especializada na criação e execução de projetos cenográficos, ativações de marca e estruturas para eventos. Seu propósito é transformar ideias em experiências visuais e espaciais que conectam marcas, pessoas e ambientes.",
+                    "A missão da B4 é desenvolver soluções criativas e estratégicas que unam design, arquitetura e produção para criar espaços impactantes, funcionais e memoráveis."
+                ]
+            },
+            {
+                "id": "2",
+                "titulo": "Nossa História",
+                "texto": [
+                    "A B4 Creative nasceu da necessidade de unir criatividade e execução técnica na produção de experiências para eventos e ativações de marca. Desde o início, a empresa se destacou por transformar conceitos em estruturas reais, capazes de traduzir a identidade de cada cliente em espaços únicos.",
+                    "Com o passar dos anos, a B4 ampliou sua atuação e consolidou sua presença em eventos corporativos, festivais e projetos promocionais, sempre combinando planejamento, design e produção para entregar soluções inovadoras."
+                ]
+            },
+            {
+                "id": "3",
+                "titulo": "Grupo Daniella Borraz (GDB)",
+                "texto": [
+                    "A B4 Creative integra o Grupo Daniella Borraz (GDB), uma holding que reúne empresas voltadas para eventos, marketing, tecnologia e entretenimento.",
+                    "Dentro dessa estrutura, a B4 atua como o braço criativo e estrutural do grupo, responsável pelo desenvolvimento de cenografias, estandes e ativações que dão forma física às experiências criadas pelas demais empresas do GDB."
+                ]
+            },
+            {
+                "id": "4",
+                "titulo": "UAI é Cenografia",
+                "texto": [
+                    "Nossos valores sáo formados pela sigla UAI.",
+                    "U— Universo: mergulhamos na realidade do cliente para compreender objetivos, cultura e desafios.",
+                    "A— Aliado: construímos relações sólidas baseadas em confiança e parceria real.",
+                    "I— Impacto: entregamos experiências memoráveis que geram resultado mensurável"
+                ]
+            }
+        ]
+    }
+}

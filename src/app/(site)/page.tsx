@@ -9,7 +9,7 @@ export default function Home() {
   
 
   return (
-    <div className="bg-[#270F0E] h-1000">
+    <div className="bg-[#270F0E] ">
       <Navbar />
       <Header />
       <ServicosHome />

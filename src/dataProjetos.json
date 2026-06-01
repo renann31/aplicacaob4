@@ -1,0 +1,46 @@
+{
+    "grand-hyatt": {
+        "titulo": "Metropolitano - Grand Hyatt",
+        "imagem": "/assets/grandHyatt.png",
+        "estilo": "ml-",
+        "p": "No Grand Hyatt, a B4 desenvolveu a cenografia da área de montagem dos abadás, pensada como parte da experiência do final de semana. O espaço preparava os participantes para uma das vivências do evento: a visita à quadra do Salgueiro, conectando arquitetura, Rio de Janeiro e Carnaval em uma atmosfera de encontro e expectativa.",
+        "img": [
+            "/assets/cGrand1.png",
+            "/assets/cGrand2.png",
+            "/assets/cGrand3.png",
+            "/assets/cGrand4.png",
+            "/assets/cGrand5.png"
+        ]
+    },
+    "copacabana-palace": {
+        "titulo": "Metropolitano - Copacabana Palace",
+        "imagem": "/assets/copacabanaPalace.png",
+        "estilo": "ml-1.5",
+        "p": "Evento de celebração dos 10 anos do Metropolitano, programa de reconhecimento a profissionais da arquitetura, que reuniu mais de 300 arquitetos de todo o Brasil em um final de semana de experiências no Rio de Janeiro. No Copacabana Palace, a B4 criou a cenografia do evento noturno de comemoração, transformando o espaço em um percurso de celebração, reconhecimento e memória.",
+        "img": [
+            "/assets/cCopacabana1.png",
+            "/assets/cCopacabana2.png",
+            "/assets/cCopacabana3.png",
+            "/assets/cCopacabana4.png",
+            "/assets/cCopacabana5.png"
+        ]
+    },
+    "festival-timbre": {
+        "titulo": "Festival Timbre",
+        "imagem": "/assets/festivalTimbre.png",
+        "estilo": "",
+        "p": "No Festival Timbre, a B4 Creative foi responsável pela concepção e execução de estruturas e ambientes de ativação de marca dentro do evento. O trabalho envolveu o desenvolvimento de espaços cenográficos e funcionais que integraram identidade visual, experiência do público e presença de patrocinadores, contribuindo para tornar o festival ainda mais imersivo."
+    },
+    "camaru-2023": {
+        "titulo": "Camaru2023",
+        "imagem": "/assets/camaru2023.png",
+        "estilo": "",
+        "p": "No Camaru 2023, a B4 Creative atuou na criação e montagem de estandes e estruturas promocionais para marcas presentes no evento. O projeto combinou arquitetura promocional, cenografia e planejamento técnico para garantir visibilidade, organização e uma experiência marcante para visitantes e expositores."
+    },
+    "camaru-2024": {
+        "titulo": "Camaru2024",
+        "imagem": "/assets/camaru2024.png",
+        "estilo": "",
+        "p": "Dando continuidade ao trabalho realizado em edições anteriores, a B4 Creative participou do Camaru 2024 com a concepção e produção de novos espaços e ativações. A atuação incluiu o desenvolvimento de estandes e ambientes estratégicos para marcas parceiras, reforçando a presença das empresas no evento e ampliando a interação com o público."
+    }
+}
