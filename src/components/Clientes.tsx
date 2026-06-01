@@ -70,6 +70,7 @@ const Clientes = () => {
                     {clientes.map((c, i) => {
                         return (
                             <Image
+                                key={i}
                                 src={c.cliente}
                                 alt="cliente"
                                 width={80}
@@ -92,6 +93,7 @@ const Clientes = () => {
                     {clientesMobile.map((c, i) => {
                         return (
                             <Image
+                                key={i}
                                 src={c.cliente}
                                 alt="cliente"
                                 width={80}
