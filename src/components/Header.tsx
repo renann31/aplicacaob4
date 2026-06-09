@@ -23,7 +23,7 @@ const Header = () => {
                     className="object-contain hidden md:block 2xl:w-54 2xl:h-75"
                 />
                 <Image
-                    src="/assets/logoHomeM.svg"
+                    src="/assets/logoHome-m.svg"
                     alt="logo"
                     width={61}
                     height={89}

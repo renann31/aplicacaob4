@@ -33,12 +33,12 @@ export default async function Pagina({ params }: { params: Promise<{ pagina: str
     <div className="bg-[#270F0E]">
       <Navbar />
       {/* imagem */}
-      <MotionDiv className="w-90 mx-auto h-60 relative md:mb-40 md:w-220 md:h-91.5 md:mx-auto 2xl:w-280 2xl:h-120">
+      <MotionDiv className="w-90 mx-auto h-60 relative md:mb-40 md:w-220 md:h-91.5 2xl:w-280 2xl:h-120">
         <Image
           src={conteudo.imagem}
           alt={conteudo.titulo}
           fill
-          className={`object-contain md:object-cover md:mx-auto md:rounded-lg ${conteudo.estilo}`}
+          className={`object-contain md:object-cover md:mx-auto md:rounded-lg`}
         />
       </MotionDiv>
       {/* texto */}

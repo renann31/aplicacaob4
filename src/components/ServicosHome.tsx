@@ -22,7 +22,7 @@ const ServicosHome = () => {
                     </p>
 
                     <button className="w-full h-10 md:w-20 md:h-8 bg-[#BD4217] flex md:py-1.5 md:px-0 rounded-lg">
-                        <Link href="/grand-hyatt" className="text-[#270F0E] md:tracking-widest my-auto mx-auto text-[18px] md:text-[12px]">
+                        <Link href="/grand-hyatt" className="text-[#270F0E] my-auto mx-auto text-[18px] md:text-[12px] md:font-medium">
                             Saiba mais
                         </Link>
                     </button>
@@ -43,7 +43,7 @@ const ServicosHome = () => {
             <MotionDiv className="flex flex-col mx-auto items-center mb-20 w-73 md:w-220 2xl:w-280 md:flex-row md:mt-20 md:max-h-130 md:gap-10">
                 {/* IMAGEM */}
                 <Image
-                    src="/assets/copacabanaPalace.webp"
+                    src="/assets/copacabanaHome.webp"
                     alt="Imagem do serviço"
                     width={500}
                     height={237}
@@ -61,7 +61,7 @@ const ServicosHome = () => {
                     </p>
 
                     <button className="w-full h-10 md:w-20 md:h-8 bg-[#BD4217] flex md:py-1.5 md:px-0 rounded-lg">
-                        <Link href="/copacabana-palace" className="text-[#270F0E] md:tracking-widest my-auto mx-auto text-[18px] md:text-[12px]">
+                        <Link href="/copacabana-palace" className="text-[#270F0E] my-auto mx-auto text-[18px] md:text-[12px] md:font-medium">
                             Saiba mais
                         </Link>
                     </button>
